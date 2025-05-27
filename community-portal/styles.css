@@ -1,0 +1,28 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+#welcomeBanner {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+}
+
+/* Event Card */
+.event-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  nav .navbar-nav {
+    flex-direction: column;
+  }
+}
